@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color:  #298EEA;
+}
+
+.logo {
+  background: url("logo.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100px;
+  width: 180px;
+  margin: 20px auto;
+}
+
+.container {
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.signup {
+  padding: 10px;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+}
+label {
+  margin-left: 20px;
+
+}
+#email, #password {
+  display: block;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 2px;
+  height: 38px;
+  width: 303px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+#submit {
+  display: block;
+  margin-left: 35px;
+  width: 333px;
+  height: 55px;
+  padding: 15px;
+  border: 2px;
+  border-radius: 3px;
+}
+
+button {
+  border: 0;
+  background-color: #15cd72;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#forgot {
+  text-align: center;
+  color: grey;
+  margin: 130px;
+}
+
+.login {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+a:link {
+  color: white;
+}
